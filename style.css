@@ -25,13 +25,6 @@
   color: white;
 }
 
-/* about section */
-
-#about {
-  width: 100%;
-  height: 100vh;
-}
-
 /* Footer Code Here */
 footer {
   background-color: #2b3035;
@@ -2122,4 +2115,151 @@ textarea::placeholder {
 .tp-list-details-text p {
   text-align: justify;
   line-height: 2rem;
+}
+
+/* media queries */
+
+/* mobile screen */
+@media screen and (max-width: 450px) {
+  /* footer */
+  footer {
+    padding: 20px 30px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-box,
+  .footer-box-text {
+    width: 100%;
+  }
+
+  /* call to action */
+  .call-to-action-tabs {
+    gap: 30px;
+  }
+
+  .call-to-action-container {
+    gap: 20px;
+  }
+
+  .call-action h2 {
+    font-size: 1.5rem;
+  }
+
+  /* services */
+
+  .tp-list-details-area {
+    margin: 40px 0px;
+  }
+
+  .tp-list-sidebar-widget {
+    margin-top: 0px;
+  }
+
+  .tp-list-details-box {
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+  }
+
+  .tp-list-details-text p {
+    line-height: 1.5rem;
+  }
+
+  .it-tp-list-details-slider-item img {
+    width: 100%;
+  }
+
+  .tp-list-details-top-meta {
+    font-size: 0.8rem;
+  }
+
+  .tp-list-details-box {
+    padding: 0px 15px 25px 15px;
+  }
+
+  .tp-list-details-top-title {
+    font-size: 20px;
+  }
+
+  /* navbar */
+
+  .navbar-brand img {
+    width: 140px;
+  }
+
+  .navbar-nav {
+    gap: 10px !important;
+  }
+
+  /* contact us */
+  .contact-us-box {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .contact-us-form {
+    width: 100%;
+  }
+
+  .submit-btn input {
+    width: 50%;
+  }
+
+  .contact-us-info {
+    width: 100%;
+  }
+
+  /* about us */
+
+  .experience-container p {
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  .accordion-body p,
+  li {
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 1.7rem;
+  }
+
+  .accordion-image {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .accordion-image img {
+    width: 100%;
+  }
+
+  #about {
+    padding: 20px 0px;
+    margin: 20px auto 0px auto;
+  }
+
+  .about-section-service-box {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-service-box {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .about-service-info {
+    width: 45%;
+  }
+
+  .about-service-info h5 {
+    font-size: 1rem;
+  }
+
+  .about-service-info p {
+    font-size: 0.85rem;
+  }
 }
