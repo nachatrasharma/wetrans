@@ -105,7 +105,7 @@ i {
 
 #about {
   width: 90%;
-  margin: 100px auto 0px auto;
+  margin: 100px auto 100px auto;
 }
 
 .top-image-text {
@@ -136,6 +136,34 @@ i {
   display: flex;
   justify-content: space-between;
 }
+
+/* certificate section */
+
+#certificate {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.cert-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+
+.cert-img img {
+  object-fit: contain;
+  width: 600px;
+  height: 700px;
+}
+
+.cert-img .mto-cert {
+  width: 200px;
+  text-align: center;
+}
+
 /* call to action */
 
 .call-action {
