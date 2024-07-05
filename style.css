@@ -164,6 +164,18 @@ i {
   text-align: center;
 }
 
+@media screen and (max-width: 400px) {
+  .cert-img {
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .cert-img img {
+    width: 332px;
+    height: auto;
+  }
+}
+
 /* call to action */
 
 .call-action {
